@@ -45,7 +45,7 @@ El agente de PHP de Elasticsearch se puede bajar desde su Github [apm-agent-php]
 Aunque tambíen podemos compilar nuestra propia versión [Build from source](https://www.elastic.co/guide/en/apm/agent/php/current/setup.html#build-from-source):
 
  - [Descargar las fuentes de Github](https://github.com/elastic/apm-agent-php/)
- - Compiar
+ - Compilar
  ```bash
  cd apm-agent-php
 # for linux glibc - libc distributions (Ubuntu, Redhat, etc)
@@ -65,7 +65,7 @@ PHP_CONFIG=php-config sudo cp agent/native/_build/${BUILD_ARCHITECTURE}-release/
 
 Recrodar que necesitaremos los archivos `.so` y el `bootstrap_php_part.php` para usarlo mas adelante en la configuraicón del `php.ini`
 
-Los archivos los encontrareis en `agent/native/_build/linux-x86-64-release/ext/` (__dependiende de vuestra plataforma claro !!!__)
+Los archivos los encontrareis en `agent/native/_build/linux-x86-64-release/ext/` (dependiendo de vuestra plataforma claro !!!__)
 
 ```bash
 # Adelanto
